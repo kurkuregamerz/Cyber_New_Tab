@@ -5,8 +5,29 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cyber-new-tab</title>
+    <link rel="stylesheet" href="./src/index.css">
+    <style id="animation_pause">
+      *{
+        animation: none !important;
+        transition: none !important;
+      }
+    </style>
   </head>
   <body>
+    
+    <div id="app">
+      <div id="loading">LOADING...</div>
+      <div id="tab_main">
+        <div id="tab_screen">
+          <div id="NASA_logo">NASA</div>
+          <div id="title"></div>
+          <div id="description"></div>
+          <div id="date"></div>
+        </div>
+      </div>
+      
+      
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
